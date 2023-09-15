@@ -1,5 +1,4 @@
-var d='1451001600000';
+var d='05 October 2011, GMT';
 
-console.log (parseInt(d));
-console.log (new Date(parseInt(d)).toUTCString());
+console.log (new Date(d).getTime());
  
